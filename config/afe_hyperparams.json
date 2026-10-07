@@ -1,0 +1,29 @@
+{
+  "alpha_entropy": 0.12,
+  "beta_cmd": 0.45,
+  "lambda_decay": 0.10,
+  "theta_threshold": 0.85,
+  "lineage_offsets": {
+    "www-data": 0.40,
+    "nginx": 0.40,
+    "apache": 0.40,
+    "nobody": 0.30,
+    "standard_user": 0.00,
+    "admin_ssh": -0.25
+  },
+  "command_weights": {
+    "whoami": 0.35,
+    "netstat": 0.40,
+    "ip": 0.30,
+    "ifconfig": 0.30,
+    "id": 0.30,
+    "cat": 0.25,
+    "curl": 0.50,
+    "wget": 0.50,
+    "nc": 0.65,
+    "ncat": 0.65,
+    "bash": 0.40,
+    "sh": 0.40,
+    "powershell.exe": 0.45
+  }
+}
